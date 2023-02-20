@@ -2,9 +2,10 @@ name: GitHub Actions Demo
 run-name: ${{ github.organization }} is testing out GitHub Actions 🚀
 on:
   push:
-    branches: main
     paths-ignore:
-      - '/readme.md'
+    - '/readme.md'
+    branches: main
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
