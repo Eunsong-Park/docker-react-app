@@ -3,7 +3,7 @@ run-name: ${{ github.organization }} is testing out GitHub Actions 🚀
 on:
   push:
     paths-ignore:
-    - '/readme.md'
+      - '/readme.md'
     branches: main
 
 jobs:
